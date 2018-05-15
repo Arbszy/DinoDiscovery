@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.842"
-        app:srcCompat="@drawable/Scrapbook_page_texture" />
+        app:srcCompat="@drawable/scrapbook_page_texture" />
 
     <ImageView
         android:id="@+id/imageView4"

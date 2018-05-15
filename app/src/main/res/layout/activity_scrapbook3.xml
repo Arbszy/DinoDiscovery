@@ -10,7 +10,7 @@
         android:id="@+id/imageView11"
         android:layout_width="399dp"
         android:layout_height="280dp"
-        app:srcCompat="@drawable/Scrapbook_page_texture"
+        app:srcCompat="@drawable/scrapbook_page_texture"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="254dp" />
 
@@ -18,7 +18,7 @@
         android:id="@+id/imageView12"
         android:layout_width="384dp"
         android:layout_height="275dp"
-        app:srcCompat="@drawable/Scrapbook_page_texture"
+        app:srcCompat="@drawable/scrapbook_page_texture"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="321dp" />
 
