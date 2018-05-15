@@ -9,11 +9,10 @@
     <string name="difficulty">Difficulty</string>
     <string name="menu_image_difficulty">difficulty_screen</string>
     <string name="menu_option_difficulty2">Difficulty2</string>
-=======
+
     <string name="title_Dinodiscovery">Dino Discovery</string>
     <string name="button_4x4_game">4x4 Game</string>
     <string name="android_contentdescription">android:contentDescription</string>
 
 
-    >>>>>>> 3b21fe057d7ec96ee28e1478f63d595e569698b3
 </resources>
