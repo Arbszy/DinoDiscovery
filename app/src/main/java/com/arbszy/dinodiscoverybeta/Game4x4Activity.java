@@ -26,7 +26,7 @@ public class Game4x4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game4x4);
 
-        GridLayout gridLayout = (GridLayout)findViewById(R.id.grid_layout_4x4);
+        GridLayout gridLayout = findViewById(R.id.grid_layout_4x4);
 
         int numColumns = gridLayout.getColumnCount();
         int numRows = gridLayout.getRowCount();
@@ -53,6 +53,9 @@ public class Game4x4Activity extends AppCompatActivity {
         }
 
         for(int i = 0; i < numOfElements; i++)
+        {
+
+        }
 
     }
 }
