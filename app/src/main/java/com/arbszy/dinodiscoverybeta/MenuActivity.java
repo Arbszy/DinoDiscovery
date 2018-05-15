@@ -9,7 +9,7 @@ import android.widget.GridLayout;
 
 public class MenuActivity extends AppCompatActivity {
 
-    private Button button4x4;
+    private Button buttonPlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,9 +17,9 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
 
-        //button4x4 = (Button) findViewById(R.id.button_4x4_game);
+        buttonPlay = (Button) findViewById(R.id.buttonPlay);
 
-        button4x4.setOnClickListener(new View.OnClickListener() {
+        buttonPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, Game4x4Activity.class);
