@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scrapbook3">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="399dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/Scrapbook_page_texture"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="384dp"
+        android:layout_height="275dp"
+        app:srcCompat="@drawable/Scrapbook_page_texture"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="404dp"
+        android:layout_height="285dp"
+        app:srcCompat="@drawable/parasaur_skeleton"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>
