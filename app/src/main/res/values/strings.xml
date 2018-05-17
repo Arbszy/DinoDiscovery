@@ -13,6 +13,13 @@
     <string name="title_Dinodiscovery">Dino Discovery</string>
     <string name="button_4x4_game">4x4 Game</string>
     <string name="android_contentdescription">android:contentDescription</string>
+    <string name="DinoDiscovery2">Dino Discovery</string>
+    <string name="PlayText">Play</string>
+    <string name="Background">Background</string>
+    <string name="PlayButton">Play</string>
+    <string name="HowToPlay">How To Play</string>
+    <string name="Setting">Settings</string>
+    <string name="Quit">Quit</string>
 
 
 </resources>
