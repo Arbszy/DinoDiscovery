@@ -2,6 +2,7 @@ package com.arbszy.dinodiscoverybeta;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.GridLayout;
 
 import java.util.Random;
@@ -13,6 +14,11 @@ public class Game4x4Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game4x4);
+
+
+    }
+
+    public void onClickClose(View view) {
 
 
     }
