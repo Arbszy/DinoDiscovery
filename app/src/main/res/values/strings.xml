@@ -20,6 +20,7 @@
     <string name="HowToPlay">How To Play</string>
     <string name="Setting">Settings</string>
     <string name="Quit">Quit</string>
+    <string name="settings_menu">Settings</string>
 
 
 </resources>
