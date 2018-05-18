@@ -60,7 +60,7 @@
         tools:text="Dino Discovery" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/buttonPlay"
         android:layout_width="185dp"
         android:layout_height="97dp"
         android:layout_marginBottom="8dp"

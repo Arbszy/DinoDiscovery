@@ -17,20 +17,16 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
 
-        buttonPlay = (Button) findViewById(R.id.buttonPlay);
+       buttonPlay = (Button) findViewById(R.id.buttonPlay);
 
         buttonPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
+           @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MenuActivity.this, Game4x4Activity.class);
+               Intent intent = new Intent(MenuActivity.this, Game4x4Activity.class);
                 startActivity(intent);
 
 
             }
-
-            //variables for the greatest game ever
-
-
         });
     }
 }
