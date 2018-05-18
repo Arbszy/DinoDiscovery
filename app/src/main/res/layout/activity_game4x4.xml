@@ -26,5 +26,14 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/game_screen" />
 
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickClose"
+        android:text="Close" />
+
 
 </GridLayout>
