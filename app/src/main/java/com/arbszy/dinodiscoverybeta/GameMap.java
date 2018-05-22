@@ -81,9 +81,9 @@ public class GameMap extends AppCompatActivity {
 
             BitmapFactory.Options options = new BitmapFactory.Options();
             options.inScaled = false;
-            bmp = BitmapFactory.decodeResource(getResources(), R.drawable.chara_sprite);
+            bmp = BitmapFactory.decodeResource(getResources(), R.drawable.female_dd);
 
-            character = new Sprite(bmp);
+            character = new SpriteCharacter(bmp);
             character.addAnimation("walkDown", 6, 3, 7, 72, 96, true);
             character.addAnimation("walkUp", 0, 3, 7, 72, 96, true);
             character.addAnimation("idle", 7, 1, 1, 72, 96, false);
