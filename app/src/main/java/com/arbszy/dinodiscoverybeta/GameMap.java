@@ -56,7 +56,7 @@ public class GameMap extends AppCompatActivity {
 
         //Sprite Elements
         Bitmap bmp;
-        Sprite character;
+        SpriteCharacter character;
         TiledLevel level1;
         int vx = 0;
         int vy = 0;
