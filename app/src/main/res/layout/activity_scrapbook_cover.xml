@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".ScrapbookCover">
 
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="384dp"
+        android:layout_height="272dp"
+        android:contentDescription="@string/android_contentdescription"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/scrapbook_page_texture" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="447dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="@string/android_contentdescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/scrapbook_page_texture" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="430dp"
+        android:layout_height="303dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/android_contentdescription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/scrapbook_cover" />
 </android.support.constraint.ConstraintLayout>
