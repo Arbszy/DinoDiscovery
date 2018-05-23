@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridLayout;
+import android.widget.ImageButton;
 
 public class MenuActivity extends AppCompatActivity {
 
-    private Button buttonPlay;
+    private ImageButton buttonPlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,7 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
 
-       buttonPlay = (Button) findViewById(R.id.buttonPlay);
+       buttonPlay = findViewById(R.id.buttonPlay);
 
         buttonPlay.setOnClickListener(new View.OnClickListener() {
            @Override
