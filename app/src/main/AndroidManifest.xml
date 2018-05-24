@@ -22,7 +22,8 @@
         <activity android:name=".Scrapbook1" />
         <activity android:name=".Scrapbook2" />
         <activity android:name=".Scrapbook3" />
-        <activity android:name=".GameMap"></activity>
+        <activity android:name=".GameMap" />
+        <activity android:name=".HowToPlay"></activity>
     </application>
 
 </manifest>
