@@ -26,19 +26,87 @@
         app:srcCompat="@drawable/game_screen" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="257dp"
-        android:layout_height="191dp"
+        android:id="@+id/textView5"
+        android:layout_width="248dp"
+        android:layout_height="78dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:text="Your task is to collect & excavate fossils from the dig site. Each pair of fossils discovered with provide you with points."
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        app:fontFamily="@font/trade_winds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="264dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="The Dinosaur fossils & bones in question are from the 3 periods of the Mesozoic era. Those periods being the Triassic, Jurassic & Cretaceous periods"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        app:fontFamily="@font/trade_winds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="256dp"
+        android:layout_height="79dp"
+        android:text="Once all fossils have been collected the next round should begin & as your progress the board will grow & get bigger up to 6x6."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        app:fontFamily="@font/trade_winds"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="258dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Welcome to Dino Discovery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp"
+        app:fontFamily="@font/trade_winds"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="17sp"
+        app:fontFamily="@font/trade_winds"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="173dp" />
 
 </android.support.constraint.ConstraintLayout>
