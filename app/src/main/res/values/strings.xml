@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DinoDiscovery</string>
+    <string name="app_name">DinoDiscoveryAlphaB</string>
 
     <string name="menu_option_4x3">4x3 Game</string>
     <string name="menu_option_4x4">4x4 Game</string>
@@ -24,4 +24,6 @@
     =======
     <string name="settings_menu">Settings</string>
     >>>>>>> f56bf2418641e06784654ac3b9afaea7d625c49d
+
+
 </resources>
